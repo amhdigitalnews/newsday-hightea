@@ -21,7 +21,7 @@
                 </tr>
             </table>
         </section>
-        <section id="speakers" class="mt-4 pt-2">
+        <section id="speakers" class="mt-4 pt-2" >
             <h3 class="text-center m-2">Speakers for the event</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" v-for="{id, name, post, occupancy, imgLink} of guestSpeakers" :key="id">

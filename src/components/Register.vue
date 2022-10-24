@@ -41,7 +41,6 @@ export default {
             emailAddress: '',
             mobileNumber: '',
             isInterested: false,
-            // incomplete: fullname && emailAddress && mobileNumber
         }
     },
     methods: {
@@ -55,6 +54,13 @@ export default {
             } catch(e) {
                 console.error(`Error adding document: ${e}`);
             }
+
+            // var templateParams = formData
+            emailjs.send("service_h5pc8mo", "template_8x2wnz8", formData).then((response) => {
+                console.log('Success: ', response.status, response.text);
+            }).catch(err => {
+                console.error('Failed: ', err);
+            })
         }
 
     }
