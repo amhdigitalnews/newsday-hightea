@@ -41,8 +41,9 @@
               Alpha Media Holdings
             </h6>
             <p>
-              NewsDay Zimbabwe is a Harare-based independent news and media publication established in 2010 and runs
-              with the slogan <i>Everyday News for Eveyday People.</i>
+              Alpha Media Holdings (AMH) is an independent news and media publisher with popular publications such as
+              NewsDay, The Independent and The Standard. It also hosts and promotes various events such as the Cancer
+              High Tea Event.
             </p>
           </div>
 
