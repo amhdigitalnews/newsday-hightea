@@ -1,5 +1,5 @@
 <template>
-    <!-- <h4>Welcome to the main content view</h4>/ -->
+    
     <Speakers />
     <Register />
     <Sponsors />

@@ -2,7 +2,7 @@
     <div>
         <section class="text-center mt-4 " id="details">
             <h3 >Event Details</h3>
-            <table class="table table-borderless" style="text-align: center; font-size: 20px;">
+            <table class="table table-borderless text-center" style="text-align: center; font-size: 20px;">
                 <tr>
                     <td><b>Date</b></td>
                     <td>28 October 2022</td>

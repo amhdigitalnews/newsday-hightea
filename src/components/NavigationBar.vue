@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg sticky-top mb-4">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">NewsDay Cancer High Tea</a>
+      <a class="navbar-brand text-white" href="#"><img src="https://newsdayassets.blob.core.windows.net/newcontainer/amh-transparent.png" width="180px" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
