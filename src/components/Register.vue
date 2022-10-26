@@ -26,10 +26,10 @@
             <button type="submit" class="btn btn-outline-danger" id="liveToastBtn">Register for the event</button>
             <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
                 <div id="liveToast" class="toast text-bg-success" role="alert" aria-live="assertive" aria-atomic="true">
-                    <!-- <div class="toast-header">
+                    <div class="toast-header">
                         <strong class="me-auto">Registration Success</strong>
                         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                    </div> -->
+                    </div>
                     <div class="toast-body">
                         Thank you for registering for the event. We will get in touch with further details.
                     </div>
@@ -37,7 +37,7 @@
             </div>
         </form>
 
-        <section id="contact" class="mt-4">
+        <section id="contact" class="mt-4 pt-3">
             <p>For further information contact Spiwe Ndlovu</p>
             <p><i class="bi bi-telephone me-2"></i>Phone: +263 78 3917 708</p>
             <p><i class="bi bi-envelope me-2"></i>Email: sndlovu@newsday.co.zw</p>
@@ -81,6 +81,7 @@ export default {
             this.isInterested = true
             this.emailAddress = ''
             this.mobileNumber = ''
+            this.toGetNewsletter = false
 
             const toastTrigger = document.getElementById('liveToastBtn')
             const toastLiveExample = document.getElementById('liveToast')

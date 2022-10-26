@@ -1,7 +1,7 @@
 <template>
     <div>
         <section class="text-center mt-4 " id="details">
-            <h3 >Event Details</h3>
+            <h3 class="pt-3 mt-4">Event Details</h3>
             <table class="table table-borderless" style="text-align: center; font-size: 20px;">
                 <tr class="">
                     <td class="text-center"><b>Date</b></td>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg sticky-top mb-4">
+  <nav class="navbar navbar-expand-lg mb-4">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#"><img src="https://newsdayassets.blob.core.windows.net/newcontainer/amh-transparent.png" width="180px" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
